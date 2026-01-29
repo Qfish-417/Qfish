@@ -89,8 +89,8 @@ export const siteConfig: SiteConfig = {
 		// 注意：如果侧边栏配置启用了"both"双侧边栏，则无法使用文章列表"grid"网格（双列）布局
 		defaultMode: "list",
 		// 是否允许用户切换布局
-		allowSwitch: true,
-	},
+		allowSwitch: true，
+	}，
 
 	// 标签样式配置
 	tagStyle: {
@@ -114,11 +114,11 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
+				"/assets/desktop-banner/1.webp"，
+				"/assets/desktop-banner/2.webp"，
 				"/assets/desktop-banner/3.webp",
 				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp"，
+				"/assets/desktop-banner/5.webp",
 				"/assets/desktop-banner/6.webp",
 			], // 桌面横幅图片
 			mobile: [
